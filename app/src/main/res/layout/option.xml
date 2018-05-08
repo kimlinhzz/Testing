@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    >
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp">
+    <View
+        android:layout_width="85dp"
+        android:layout_height="1dp"
+        android:layout_alignStart="@+id/sign_text"
+        android:layout_below="@+id/sign_text"
+        android:layout_marginTop="-20dp"
+        android:background="#fff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textSize="28dp"
+        android:layout_margin="20dp"
+        android:id="@+id/sign_text"
+        />
+
+
+       <EditText
+           android:layout_centerVertical="true"
+           android:background="@drawable/box"
+           android:id="@+id/input"
+           android:padding="5dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_below="@id/sign_text"
+           android:hint="UserName:"
+           />
+
+
+    <EditText
+        android:padding="5dp"
+        android:id="@+id/input2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/input"
+        android:background="@drawable/box"
+        android:layout_marginTop="20dp"
+        android:hint="Email:"
+        />
+
+        <EditText
+            android:padding="5dp"
+            android:id="@+id/input3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/input2"
+            android:background="@drawable/box"
+            android:layout_marginTop="20dp"
+            android:hint="Password:"
+            />
+        <EditText
+            android:padding="5dp"
+            android:id="@+id/input4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/input3"
+            android:background="@drawable/box"
+            android:layout_marginTop="20dp"
+            android:hint="Confirm password:"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign up with"
+            android:layout_alignParentBottom="true"
+            />
+
+
+</RelativeLayout>
+</RelativeLayout>

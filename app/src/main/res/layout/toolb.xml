@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:id="@+id/b1"
+    android:layout_height="match_parent"
+
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:orientation="vertical"
+        >
+
+
+      <android.support.v7.widget.Toolbar
+          android:id="@+id/tool"
+          android:layout_width="match_parent"
+          android:layout_height="56dp"
+          android:background="@color/colorPrimaryDark">
+
+      </android.support.v7.widget.Toolbar>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/free"
+            android:orientation="vertical"
+            >
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="#424242"
+        >
+        <android.support.design.widget.NavigationView
+            android:id="@+id/navi"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:menu="@menu/ckcc_manu"
+            app:headerLayout="@layout/head_navigation"
+
+            ></android.support.design.widget.NavigationView>
+    </LinearLayout>
+    
+
+</android.support.v4.widget.DrawerLayout>
